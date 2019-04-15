@@ -74,7 +74,7 @@ namespace gridMaster
             worldX /= offset;
             worldZ /= offset;
 
-            int x = Mathf.RoundToInt(worldX);
+            int x = Mathf.RoundToInt(worldX) -1;
             int z = Mathf.RoundToInt(worldZ);
 
             if (x > sizeX)

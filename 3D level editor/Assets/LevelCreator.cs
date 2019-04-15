@@ -1,5 +1,4 @@
 using UnityEngine;
-using System.Collections.Generic;
 using gridMaster;
 
 namespace LevelEditor
@@ -269,7 +268,7 @@ namespace LevelEditor
 						placedObjProperties.gridPosX = curNode.nodePosX;
 						placedObjProperties.gridPosZ = curNode.nodePosZ;
 						curNode.stackedObjs.Add(placedObjProperties);
-						manager.inSceneGameObjects.Add(actualObjPlaced);
+						manager.inSceneStackObjects.Add(actualObjPlaced);
                         curNode.isWalkable = false;
 					}
 

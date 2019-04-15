@@ -10,7 +10,6 @@ using gridMaster;
 		
 		public List<GameObject> inSceneGameObjects = new List<GameObject>();
 		public List<GameObject> inSceneStackObjects = new List<GameObject>();
-        public List<GameObject> inSceneWalls = new List<GameObject>();
 
 		private static LevelManager instance = null;
 		public static LevelManager GetInstance()
