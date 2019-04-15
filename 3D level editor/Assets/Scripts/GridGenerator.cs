@@ -74,6 +74,7 @@ namespace gridMaster
             worldX /= offset;
             worldZ /= offset;
 
+            //makes sure right node is linked
             int x = Mathf.RoundToInt(worldX) -1;
             int z = Mathf.RoundToInt(worldZ);
 

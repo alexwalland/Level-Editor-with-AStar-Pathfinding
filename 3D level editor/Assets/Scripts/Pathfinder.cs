@@ -20,6 +20,7 @@ namespace Pathfinding
 
         private List<Node> FindPathActual(Node startPos, Node target)
         {
+            //uses A* pathfinding to  find the shortest route 
             List<Node> foundPath = new List<Node>();
 
             List<Node> openSet = new List<Node>();
@@ -78,6 +79,7 @@ namespace Pathfinding
         private List<Node> RetracePath(Node startNode, Node endNode)
 
         {
+            //adds nodes to path from back to front then reverses the list
             List<Node> path = new List<Node>();
 
             Node currentNode = endNode;
